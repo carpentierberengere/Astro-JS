@@ -9,8 +9,10 @@ function zodiac() {
         document.getElementById("photo").innerHTML = "<img src='./img/aquarius.GIF'>";
         document.getElementById("characteristic").innerHTML = "Aquarians are extremely vulnerable and sensitive. Although you may often find them being surrounded by many friends but in reality they rarely have close friends and acquaintances. Aquarius is a universal sign which makes them public people. Hence Aquarians are often associated with clubs, organizations and forums and enthusiastically participate in intellectual discussions. Aquarians are great communicators as long as they are within their mental realm.";
         document.getElementById("celebrities").innerHTML = "Alicia Keys, Ellen DeGeneres, Elijah Wood";
-        //document.getElementById("box").style.backgroundImage = "url('./img/aquarius.GIF')"; 
-
+        //document.getElementById("zozo").style.backgroundImage = "url('./img/aquarius.GIF')"; 
+        //document.getElementById("zozo").style.backgroundRepeat = "no-repeat";
+        //document.getElementById("zozo").style.backgroundSize = "550px 550px"; 
+        //document.getElementById("zozo").style.backgroundPosition = "center center";
     }
 
     if (birthmonth == 2 && birthday >= 19 || birthmonth == 3 && birthday <= 20) {
@@ -29,7 +31,7 @@ function zodiac() {
 
     if (birthmonth == 4 && birthday >= 20 || birthmonth == 5 && birthday <= 20) {
         result = ("Taurus");
-        document.getElementById("photo").innerHTML = "<img src='https://www.horoscope.com/images-US/signs/profile-taurus.png'width=20%>";
+        document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Taureans are noted for their determination and zeal. It is not easy to distract a Taurian from his goal once he has set his target. He would stay focused on his target and would continuously strive to achieve it.Taureans attach high value to simplicity and functionality. They often live a life that is simple and devoid of luxury.";
         document.getElementById("celebrities").innerHTML = "Camilla Cabello, Albert Einstein, Steve Irwin";
 
@@ -44,7 +46,7 @@ function zodiac() {
 
     if (birthmonth == 6 && birthday >= 21 || birthmonth == 7 && birthday <= 22) {
         result = ("Cancer");
-        document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
+        document.getElementById("photo").innerHTML = "<img src='./img/cancer.GIF'>";
         document.getElementById("characteristic").innerHTML = "Cancerians are emotional. Their lives are often inflicted with mood shifts. You can find a Canerian in different moods even during a day.The true emotion of Cancer however is hidden behind their composure. But they are soft creatures and can be hurt easily by unkind words.People of the Cancer zodiac sign can be prone to depression and other mental issues. However, cancers are great family people and enjoy big families around them.";
         document.getElementById("celebrities").innerHTML = "Meryl Streep, Ariana Grande, Elon Musk";
     }
@@ -65,6 +67,7 @@ function zodiac() {
         document.getElementById("photo").innerHTML = "<img src='./img/libra.GIF'>";
         document.getElementById("characteristic").innerHTML = "Libra is an active sign and members born under the sign are endowed with high energy. But Librans also tend to run out of their energy soon.The Libra is the ‘balance’ and members of this sign have a very balanced mind. They can be found in settling disputes often. Librans always try to maintain harmony and balance. They are also very level headed and have a keen sense for justice. Therefore, their suggestions are often highly sought after by their friends and kins.Librans are two faceted characters. They both have the cheerfulness and darkness in them. Librans have phases of heightened activities but they can easily slip into a phases of complete inactivity and apathy as well.";
         document.getElementById("celebrities").innerHTML = "Serena Williams, Cardi B, Lil Wayne";
+        
     }
     if (birthmonth == 10 && birthday >= 23 || birthmonth == 11 && birthday <= 21) {
         result = ("Scorpio");
@@ -91,3 +94,5 @@ function zodiac() {
     
     document.getElementById("output").innerHTML = result;
 }
+
+ 
