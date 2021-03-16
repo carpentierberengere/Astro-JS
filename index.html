@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zodiac JS</title>
+    <link rel="icon" href="./img/astro.png" type="image/png" />
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container.is-widescreen">
+            <header>
+                <div class="intro">
+                    <h1 class="title">
+                        Welcome to ZODIAC JS
+                    </h1>
+                    
+                </div>
+            </header>
+        </div>
+        
+        <div id = "box">
+            <!------BIRTHDAY INPUT BOX------->
+            <h2> What is your sun sign ?</h2>
+            </div>
+            <h3> Enter your birthday </h3>
+            <p>Month:<input type="number" id="month" min="1" max="12" ></p>
+            <p>Day:<input type="number" id="day" min="1" max="31"></p>
+            <a id="animated" onclick="zodiac()"  class="button">Let the stars align! </a>
+            
+            <!------ZODIAC RETURN SECTION------>
+            <p id="photo"></p>
+            <p id= "space"> Your zodiac sign is <span id="output"></span> </p>
+            <p id="characteristic"></p>
+            <p id="celebrities"></p>
+
+
+
+
+    </section>
+
+    <script src="./astro.js"></script>
+</body>
+
+</html>
