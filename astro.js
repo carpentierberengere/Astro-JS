@@ -33,13 +33,13 @@ function zodiac() {
         result = ("Taurus");
         document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Taureans are noted for their determination and zeal. It is not easy to distract a Taurian from his goal once he has set his target. He would stay focused on his target and would continuously strive to achieve it.Taureans attach high value to simplicity and functionality. They often live a life that is simple and devoid of luxury.";
-        document.getElementById("celebrities").innerHTML = "Camilla Cabello, Albert Einstein, Steve Irwin";
+        document.getElementById("celebrities").innerHTML = "Gigi Hadid, Brabra Streisand, Dwayne The Rock Johnson";
 
     }
 
     if (birthmonth == 5 && birthday >= 21 || birthmonth == 6 && birthday <= 20) {
         result = ("Gemini");
-        document.getElementById("photo").innerHTML = "<img src='https://www.horoscope.com/images-US/signs/profile-gemini.png'width=20%>";
+        document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Geminis are full of duality. They always look to a situation from dual perspective. Geminis are characterized by inconstancy and dual nature. Geminis therefore always stay confused about their feelings.Geminis however are strong communicators and express good control over language. They are often found to have knowledge over several languages.";
         document.getElementById("celebrities").innerHTML = "Queen Elizabeth II, John Cena, Channing Tatum";
     }
@@ -52,13 +52,14 @@ function zodiac() {
     }
     if (birthmonth == 7 && birthday >= 23 || birthmonth == 8 && birthday <= 22) {
         result = ("Leo");
-        document.getElementById("photo").innerHTML = "<img src='https://www.horoscope.com/images-US/signs/profile-leo.png'width=20%>";
+        document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Leos are warm spirited. They are full of energy and always eager to jump into action. Leos crave for recognition and admiration. Leos always love to be at the centre of attraction. They strive to reach to the top in whatever they do. Leos always love to be surrounded with large crowd and admirers. However, they are often unkind to criticism and don’t take the words of critics lightly.Leos are very ambitious and choose their acquaintances carefully. They aspire for social recognition.";
+        document.getElementById("celebrities").innerHTML = "Daniel Radcliffe, Sandra Bullock, Cara Delevingne";
 
     }
     if (birthmonth == 8 && birthday >= 23 || birthmonth == 9 && birthday <= 22) {
         result = ("Virgo");
-        document.getElementById("photo").innerHTML = "<img src='https://www.horoscope.com/images-US/signs/profile-virgo.png'width=20%>";
+        document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Virgos have a keen sense of good and bad and for that they are highly discriminating. They have an intuitive sense to identify wrong motives in people. Hence, Virgos exercise extreme caution in what they do.The virgin defines purity and therefore they are endowed with the ability to distinguish the good from the bad. Hence, Virgos are also cleanliness freaks. Despite their intelligence Virgos often remain confused about the decisions they make in their life. Also, you will not find Virgos teeming with activities.";
         document.getElementById("celebrities").innerHTML = "Beyonce, Idris Elba, Keanu Reeves";
     }
@@ -71,20 +72,20 @@ function zodiac() {
     }
     if (birthmonth == 10 && birthday >= 23 || birthmonth == 11 && birthday <= 21) {
         result = ("Scorpio");
-        document.getElementById("photo").innerHTML = "<img src='https://www.horoscope.com/images-US/signs/profile-scorpio.png'width=20%>";
+        document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Scorpions are most diverse in nature and therefore present the most interesting study. Scorpios hold grudge and would wait patiently for the right moment to strike. They are not likely to forget any act of betrayal or treachery. For Scorpios what is implied is more fascinating than the obvious.Scorpios are often described as egoists. However, some of the positive traits of Scorpios are- diplomacy, intuition, intelligence, engaging, resolute, spirituality and sensitivity.";
         document.getElementById("celebrities").innerHTML = "Kendall Jenner, Drake, Leonardo DiCaprio";
     }
     if (birthmonth == 11 && birthday >= 22 || birthmonth == 12 && birthday <= 21) {
         result = ("Sagittarius");
-        document.getElementById("photo").innerHTML = "<img src='https://www.horoscope.com/images-US/signs/profile-sagittarius.png'width=20%>";
+        document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Sagittarians are the incurable optimists. They are always looking at the positive side of a thing. Their optimism can’t be dampened by hardships or negative results.Sagittarians often are outdoor people. They will take interest in all sorts of sports and outdoor activities. They are also adventures in nature. Although they are true to their faults but can also turn completely deaf to criticism and turn down suggestions.";
         document.getElementById("celebrities").innerHTML = "Miley Cyrus, Tina Turner, Ben Stiller";
     }
 
     if (birthmonth == 12 && birthday >= 22 || birthmonth == 1 && birthday <= 19) {
         result = ("Capricorn");
-        document.getElementById("photo").innerHTML = "<img src='https://www.horoscope.com/images-US/signs/profile-capricorn.png'width=20%>";
+        document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Members of this sign has an insatiable desire to climb higher and during this course they can also become selfish and might not hesitate to sacrifice other’s interests in fulfilling their goals.Capricorns may seem risk averse but in reality they carefully plan all their moves ahead and rehearse them to perfection.";
         document.getElementById("celebrities").innerHTML = "Ryan Seacrest, Kit Harrington, Timothée Chalamet";
     

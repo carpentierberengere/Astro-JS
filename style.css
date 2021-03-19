@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Merriweather:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -54,26 +55,54 @@ html{
 body{
     text-align:center;
     color:antiquewhite;
+    font-family: 'Merriweather', serif;
 }
-.section{
+article{
     display:block;
     position: relative;
     z-index: 3;
 }
+.title{
+    font-family: 'Cormorant Unicase', serif;
+}
 .main{
     display:flex;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:10px;
+    margin-left:5%;
+    height:500px;
+    width:90%;
+    border:2px solid green;
 }
 #box{
-    
+    width:30%;
+    border:2px solid red;
     line-height:3em;
+    text-align:left;
+}
+h2{
+    text-align:center;
+    font-family: 'Cormorant Unicase', serif;
+}
+h3{
+    font-family: 'Cormorant Unicase', serif;
 }
 #zodiac{
-    max-width:50%;
+    width:70%;
     margin-left:5%;
     text-align: center;
+    border:2px solid blue;
+    
+}
+#space{
+    font-size:20px;
+    font-family: 'Cormorant Unicase', serif;
+}
+#characteristic{
+    font-size:13px;
+    line-height:22px;
+}
+#celebrities{
+    font-size:18px;
+    font-family: 'Cormorant Unicase', serif;
 }
 
 img{
