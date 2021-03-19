@@ -33,7 +33,7 @@ function zodiac() {
         result = ("Taurus");
         document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Taureans are noted for their determination and zeal. It is not easy to distract a Taurian from his goal once he has set his target. He would stay focused on his target and would continuously strive to achieve it.Taureans attach high value to simplicity and functionality. They often live a life that is simple and devoid of luxury.";
-        document.getElementById("celebrities").innerHTML = "Gigi Hadid, Brabra Streisand, Dwayne The Rock Johnson";
+        document.getElementById("celebrities").innerHTML = "Queen Elizabeth II, Brabra Streisand, Dwayne The Rock Johnson";
 
     }
 
@@ -41,7 +41,7 @@ function zodiac() {
         result = ("Gemini");
         document.getElementById("photo").innerHTML = "<img src='./img/taurus.GIF'>";
         document.getElementById("characteristic").innerHTML = "Geminis are full of duality. They always look to a situation from dual perspective. Geminis are characterized by inconstancy and dual nature. Geminis therefore always stay confused about their feelings.Geminis however are strong communicators and express good control over language. They are often found to have knowledge over several languages.";
-        document.getElementById("celebrities").innerHTML = "Queen Elizabeth II, John Cena, Channing Tatum";
+        document.getElementById("celebrities").innerHTML = "Kanye West, Marilyn Monroe, Donald Trump";
     }
 
     if (birthmonth == 6 && birthday >= 21 || birthmonth == 7 && birthday <= 22) {
