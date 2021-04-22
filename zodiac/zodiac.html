@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zodiac JS</title>
+    <link rel="icon" href="./img/astro.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./zodiac.css">
+
+</head>
+
+
+<body>
+
+    <div class="box" id="box">
+
+        <div class="formu">
+            <h2> Enter your birthday. </h2>
+            <p> Day <input type="number" id="day" min="1" max="31"></p>
+            <p>Month <input type="number" id="month" min="1" max="12"></p>
+        
+            <a id="animated" onclick="zodiac()" class="button"><span style="color:white;"><i class="fas fa-moon fa-3x"></i></span></a>
+        </div>
+
+        <div class="output">
+            <p id="photo"></p>
+            <p id="space"><span id="output"></span> </p>
+
+            <p id="characteristic"></p>
+        </div>
+
+    </div>
+
+
+    <script src="./astro.js"></script>
+</body>
+
+</html>

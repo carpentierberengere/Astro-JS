@@ -4,65 +4,29 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zodiac JS</title>
+    <title>Astro JS</title>
     <link rel="icon" href="./img/astro.png" type="image/png" />
-    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./normalize.css">
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet"> 
 </head>
-
 <body>
-    <!---BACKGROUND CODE------>
     <div class="stars"></div>
     <div class="twinkling"></div>
-    <div class="stars"></div>
-    <!------------------------>
-
-    <article class="section">
-        <section class="container.is-widescreen">
-            <header>
-                <div class="intro">
-                    <h1 class="title">
-                        Welcome to Zodiac JS
-                    </h1>
-
-                </div>
-            </header>
-        </section>
-        
-              
-       <section class="main">
-
-            <div id="box">
-                <!------BIRTHDAY INPUT BOX------->
-                <h2> What is your sun sign ?</h2>
-
-                <h3> Enter your birthday </h3>
-                <p>Day:<input type="number" id="day" min="1" max="31" style="width:55px;"></p>
-                <p>Month:<input type="number" id="month" min="1" max="12" style="width:55px;"></p>
-                <a id="animated" onclick="zodiac()" class="button">Let the stars align! </a>
-            </div>
-
-
-            <div id="zodiac">
-                <!------ZODIAC RETURN SECTION------>
-                    <p id="space"> <span id="output"></span> </p>
-                    <p id="good"></p>
-                    <p id="bad"></p>
-                    <p id="planetAndElement"></p>
-                    <p id="characteristic"></p>
-                    <p id="celebrities"></p>
-                
-
-            </div>
-
-        </section>
-
-
-
-    </article>
-
-    <script src="./astro.js"></script>
+    <div class="clouds"></div>
+    
+        <div class="title">
+            <h1>Astrophile</h1>
+            <h3>(n.) a person who loves stars, astronomy</h3>
+        </br>
+        </br>
+            <h3> Your sun sign is the first one in your chart. It shows what motivates and drives you.</h3>
+            <h4>Want to discover yours ? </br> </br> <a href="./zodiac/zodiac.html">
+                <span style="color:white;"><i class="fas fa-moon fa-3x"></i></span>
+            </a></h4>
+            
+        </div>
+    
+    
 </body>
-
 </html>
